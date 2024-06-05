@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Txt - Spk</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h1>Text To Speech</h1>
+    <textarea  id="textTospeech"></textarea>
+    <button onclick="speak()"><i class='bx bxs-volume-full bx-tada bx-flip-vertical' ></i>Text to Speech</button>
+</div>
+    <script>
+        var speech=new SpeechSynthesisUtterance();
+
+        function speak(){
+            speech.text=textTospeech.value;
+
+            speech.rate=1;
+            speech.volume=4;
+            speech.pitch=1;
+
+            window.speechSynthesis.speak(speech);
+
+        }
+    </script>
+</body>
+</html>

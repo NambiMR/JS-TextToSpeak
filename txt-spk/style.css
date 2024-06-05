@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1037%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='45.175' cx='787.91' cy='116.8' fill='url(%26quot%3b%23SvgjsLinearGradient1038%26quot%3b)'%3e%3c/circle%3e%3ccircle r='15.715' cx='1280.12' cy='368.07' fill='url(%26quot%3b%23SvgjsLinearGradient1039%26quot%3b)'%3e%3c/circle%3e%3ccircle r='39.44' cx='145.5' cy='275.54' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='52.06' cx='355.49' cy='276.33' fill='url(%26quot%3b%23SvgjsLinearGradient1040%26quot%3b)'%3e%3c/circle%3e%3ccircle r='29.31' cx='734.18' cy='482.46' fill='url(%26quot%3b%23SvgjsLinearGradient1041%26quot%3b)'%3e%3c/circle%3e%3ccircle r='31.21' cx='529.14' cy='10.35' fill='url(%26quot%3b%23SvgjsLinearGradient1042%26quot%3b)'%3e%3c/circle%3e%3ccircle r='42.96' cx='38.7' cy='293.95' fill='url(%26quot%3b%23SvgjsLinearGradient1043%26quot%3b)'%3e%3c/circle%3e%3ccircle r='27.855' cx='377.76' cy='357.97' fill='url(%26quot%3b%23SvgjsLinearGradient1044%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1037'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='697.56' y1='116.8' x2='878.26' y2='116.8' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1038'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1248.6899999999998' y1='368.07' x2='1311.5499999999997' y2='368.07' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='251.37' y1='276.33' x2='459.61' y2='276.33' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1040'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='675.56' y1='482.46' x2='792.8' y2='482.46' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1041'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='466.71999999999997' y1='10.350000000000001' x2='591.56' y2='10.350000000000001' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1042'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='-47.22' y1='293.95' x2='124.62' y2='293.95' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='322.05' y1='357.97' x2='433.47' y2='357.97' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 6px 8px rgb(182, 181, 180);
+    color: aqua;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+textarea{
+    height: 300px;
+    width: 500px;
+    margin: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 6px 8px rgb(182, 181, 180);
+}
+button{
+    padding:5px;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
