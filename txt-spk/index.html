@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,16 +15,13 @@
 </div>
     <script>
         var speech=new SpeechSynthesisUtterance();
-
         function speak(){
             speech.text=textTospeech.value;
-
             speech.rate=1;
             speech.volume=4;
             speech.pitch=1;
 
             window.speechSynthesis.speak(speech);
-
         }
     </script>
 </body>
